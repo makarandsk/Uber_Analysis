@@ -4,12 +4,12 @@
 The Uber Analysis Jupyter Notebook provides an in-depth analysis of Uber ride data for the year 2016 in multiple geographical locations, including the USA, Sri Lanka, and Pakistan. The dataset includes information about the start and end dates, categories of rides (business or personal), start and stop locations, miles traveled, and the purpose of each ride.
 
 ## Libraries Used
-- numpy
-- pandas
-- matplotlib.pyplot
-- seaborn
-- datetime
-- time
+- `numpy`
+- `pandas`
+- `matplotlib.pyplot`
+- `seaborn`
+- `datetime`
+- `time`
 
 ## Dataset
 The dataset consists of 1156 rows and 7 columns, containing information about Uber rides. Initially, the columns had asterisks in their names, which were removed during the data cleaning process.
@@ -21,7 +21,7 @@ Data cleaning involved removing null values, changing column data types, and han
 **General Information**
 
 - The dataset contains 1155 non-null entries.
-- The columns include 'START_DATE', 'END_DATE', 'CATEGORY', 'START', 'STOP', 'MILES', and 'PURPOSE'.
+- The columns include `START_DATE`, `END_DATE`, `CATEGORY`, `START`, `STOP`, `MILES`, and `PURPOSE`.
 - The total miles range from 0.5 to 12204.7, with an average of 21.12 miles.
 
 **Category Analysis**
